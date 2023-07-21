@@ -1,0 +1,204 @@
+ .dashboard-default, .dashboard-default * { box-sizing: border-box; }.dashboard-default {background: #ffffff; width: 1440px; height: 840px; position: relative; overflow: hidden;}
+ .navbar {position: absolute; inset: 0;}
+ .logo {width: 125px; height: 28px; position: absolute; left: 80px;top: 50px; display: flex;align-items: center;justify-content: flex-start;}
+ .user-profile {display: flex; flex-direction: row; gap: 14px; align-items: center; justify-content: flex-start; position: absolute; right: 80px;top: 40px;}
+ .group-30 {flex-shrink: 0; width: 48px; height: 48px; position: static;}
+ .ellipse-34 {position: absolute; left: 6px;}
+ .frame-43 {display: flex; flex-direction: row; gap: 10px; align-items: center; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .nama-profil {color: var(--text-colors-primary, #293038); text-align: left; font: 500 18px/26px 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .icon-panah-kebawah-global {flex-shrink: 0; width: 24px; height: 24px; position: relative;}
+ .icon-panah-kebawah-global-gambar {width: 24px; height: 24px; position: absolute; left: 0px;top: 0px;}
+ .icon-panah-kebawah-global-gambar-rotasi {width: 24px; height: 24px; position: absolute; left: 0px;top: 0px; transform: rotate(-90deg);}
+ .arrow-down-2 {position: absolute; left: 6px;top: 7px; overflow: visible;}
+ .iconly-bold-notification {width: 24px; height: 24px; position: absolute; left: 1086px;top: 52px;}
+ .notification {position: absolute; left: 3.5px;top: 2px; overflow: visible;}
+ .ellipse-36 {background: var(--primary-500, #ff5f26); border-radius: 50%; border-style: solid; border-color: var(--text-colors-white, #ffffff); border-width: 2px; width: 10px; height: 10px; position: absolute; left: 13px;top: 1px;}
+ .to-do-list {width: 800px; height: 672px; position: absolute; left: 320px;top: 128px;}
+ .rectangle-18 {border-radius: 12px; position: absolute; left: -88px;top: -78px; overflow: visible;}
+ .content {position: absolute; inset: 0;}
+ .vector-99 {position: absolute; left: 40px;top: 600px; overflow: visible;}
+ .tugas-terselesaikan {display: flex; flex-direction: row; gap: 8px; align-items: center; justify-content: flex-start; position: absolute; left: 40px;top: 542px;}
+ .iconly-bold-arrow-right-2 {flex-shrink: 0; width: 24px; height: 24px; position: relative;}
+ .iconly-bold-arrow-right-22 {width: 24px; height: 24px; position: absolute; left: 0px;top: 0px;}
+ .arrow-right-2 {position: absolute; left: 7px;top: 6px; overflow: visible;}
+ .terselesaikan-3-tugas {color: var(--text-colors-secondary, #7a7f83); text-align: left; font: 500 18px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .task {display: flex; flex-direction: column; gap: 16px; align-items: flex-start; justify-content: flex-start; position: absolute; left: 40px;top: 40px;}
+ .title-cta {flex-shrink: 0; width: 720px; height: 78px; position: static;}
+ .title-desc {display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; position: absolute; left: 0px;top: 0px;}
+ .my-tasks {color: var(--primary-500, #ff5f26); text-align: left; font: 500 16px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .frame-40 {display: flex; flex-direction: column; gap: 12px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .frame-35 {display: flex; flex-direction: row; gap: 10px; align-items: center; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .to-do-list2 {color: var(--text-colors-primary, #293038); text-align: left; font: 500 24px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .buat-list-tugas-harian-saya {color: var(--text-colors-secondary, #7a7f83); text-align: left; font: 400 16px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .cta {position: absolute; left: 537px;top: 15px;}
+ .tambah-tugas {color: #ffffff; text-align: left; font: var(--body-2-n-16-b-semi-bold, 600 16px 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .filter {flex-shrink: 0; width: 720px; height: 44px; position: static;}
+ .sort-by {color: var(--text-colors-secondary, #7a7f83); text-align: left; font: 500 16px/100% 'Poppins', sans-serif; position: absolute; left: 0px;top: 107px; display: flex;align-items: center;justify-content: flex-start}
+ .dropdown { justify-content: center; position: absolute; right: 0px;top: 44px;}
+ .frame-59 {display: flex; flex-direction: row; gap: 4px; align-items: center; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .by-tanggal {color: var(--primary-500, #ff5f26); text-align: left; font: var(--body-3-n-14-b-semi-bold, 600 14px/24px 'Poppins', sans-serif); position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .arrow-down-23 {position: absolute; left: 6px;top: 7px; overflow: visible;}
+ .task2 {display: flex; flex-direction: column; gap: 16px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;top: 59px;}
+ .task-product-design {display: flex; flex-direction: column; gap: 16px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ /* .group-34 {flex-shrink: 0; width: 720px; height: 50px; position: static;} */
+ .frame-49 {display: flex; flex-direction: row; gap: 14px; align-items: flex-start; justify-content: flex-start; position: absolute; left: 0px;top: 0px;}
+ .rectangle-21 {background: var(--text-colors-white, #ffffff); border-radius: 100px; border-style: solid; border-color: var(--text-colors-gray, #ccced2); border-width: 1px; flex-shrink: 0; width: 28px; height: 28px; cursor: pointer; position: relative;}
+ .frame-48 {display: flex; flex-direction: column; gap: 8px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .frame-47 {display: flex; flex-direction: row; gap: 16px; align-items: center; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .product-design {color: var(--text-colors-primary, #293038); text-align: left; font: 500 18px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .frame-472 {background: var(--primary-100, #ffebd3); border-radius: 50px; padding: 8px 12px 8px 12px; display: flex; flex-direction: row; gap: 10px; align-items: flex-start; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .hari-ini {color: var(--primary-500, #ff5f26); text-align: left; font: 500 12px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .tugas-untuk-design-team {color: var(--text-colors-secondary, #7a7f83); text-align: left; font: 400 14px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .iconly-bold-arrow-down-23 {width: 24px; height: 24px; position: absolute; left: 696px;top: 2px;}
+ .arrow-down-25 {position: absolute; left: 6px;top: 7px; overflow: visible;}
+ .task-development {flex-shrink: 0; position: static;}
+ .frame-492 {display: flex; flex-direction: row; gap: 14px; align-items: flex-start; justify-content: flex-start; position: absolute; left: 0px;top: 66px;}
+ .development {color: var(--text-colors-primary, #293038); text-align: left; font: 500 18px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ ._15-juni-2022 {color: var(--primary-500, #ff5f26); text-align: left; font: 500 12px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .iconly-bold-arrow-down-24 {width: 24px; height: 24px; position: absolute; left: 696px;top: 68px;}
+ .arrow-down-27 {position: absolute; left: 6px;top: 7px; overflow: visible;}
+ .task-launching-wazwez-website {flex-shrink: 0; width: 720px; height: 28px; position: static;}
+ .frame-493 {display: flex; flex-direction: row; gap: 14px; align-items: flex-start; justify-content: flex-start; position: absolute; left: 0px;top: 110px;}
+ .launching-wazwez-website {color: var(--text-colors-primary, #293038); text-align: left; font: 500 18px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ ._20-juni-2022 {color: var(--primary-500, #ff5f26); text-align: left; font: 500 12px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .iconly-bold-arrow-down-25 {width: 24px; height: 24px; position: absolute; left: 696px;top: 112px;}
+ .arrow-down-29 {position: absolute; left: 6px;top: 7px; overflow: visible;}
+
+ .group-31 {flex-shrink: 0; width: 720px; height: 224px; position: static;}
+ .rectangle-19 {background: var(--neutral-100, #f5f5f5); border-radius: 8px; width: 720px; height: 224px; position: absolute; left: 0px;top: 66px;}
+ .group-40 {width: 688px; height: 34px; position: static;}
+ .frame-55 {background: var(--text-colors-white, #ffffff); border-radius: 50px; border-style: solid; border-color: var(--text-colors-gray, #ccced2); border-width: 1px; padding: 6px 10px 6px 10px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; position: absolute; right: 16px;top: 82px;}
+ .frame-54 {display: flex; flex-direction: row; gap: 6px; align-items: center; justify-content: flex-start; flex-shrink: 0; position: relative;}
+ .iconly-curved-plus2 {flex-shrink: 0; width: 22px; height: 22px; position: relative;}
+ .plus2 {position: absolute; left: 2.11px;top: 2.11px; overflow: visible;}
+ .tambah {color: var(--primary-500, #ff5f26); text-align: left; font: var(--small-2-m-12-b-semi-bold, 600 12px/20px 'Mulish', sans-serif); position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .subtask {color: var(--text-colors-primary, #293038); text-align: left; font: 500 16px/100% 'Poppins', sans-serif; position: absolute; left: 16px;top: 91px; display: flex;align-items: center;justify-content: flex-start}
+ .frame-56 {display: flex; flex-direction: column; gap: 10px; align-items: flex-start; justify-content: flex-start; position: absolute; left: 16px;top: 132px;}
+ .group-38 {flex-shrink: 0; width: 688px; height: 28px; position: static;}
+ .trash {position: absolute; left: 670px;top: 5px; overflow: visible;}
+ .frame-44 {display: flex; flex-direction: row; gap: 14px; align-items: center; justify-content: flex-start; position: absolute; left: 0px;top: 0px;}
+ .design-review {color: var(--text-colors-primary, #293038); text-align: left; font: 400 16px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .group-35 {flex-shrink: 0; width: 688px; height: 28px; position: static;}
+ .trash2 {position: absolute; left: 670px;top: 43px; overflow: visible;}
+ .frame-41 {display: flex; flex-direction: row; gap: 14px; align-items: center; justify-content: flex-start; position: absolute; left: 0px;top: 38px;}
+ .rectangle-20 {background: var(--text-colors-white, #ffffff); border-radius: 100px; border-style: solid; border-color: var(--text-colors-gray, #ccced2); border-width: 1px; flex-shrink: 0; width: 28px; height: 28px; position: relative;}
+ .low-fidelity-design {color: var(--text-colors-primary, #293038); text-align: left; font: 400 16px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .group-36 {flex-shrink: 0; width: 688px; height: 28px; position: static;}
+ .trash3 {position: absolute; left: 670px;top: 81px; overflow: visible;}
+ .frame-42 {display: flex; flex-direction: row; gap: 14px; align-items: center; justify-content: flex-start; position: absolute; left: 0px;top: 76px;}
+ .high-fidelity-design {color: var(--text-colors-primary, #293038); text-align: left; font: 400 16px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+ .group-37 {flex-shrink: 0; width: 688px; height: 28px; position: static;}
+ .trash4 {position: absolute; left: 670px;top: 119px; overflow: visible;}
+ .frame-432 {display: flex; flex-direction: row; gap: 14px; align-items: center; justify-content: flex-start; position: absolute; left: -4px;top: 114px;}
+ .design-guidelines {color: var(--text-colors-primary, #293038); text-align: left; font: 400 16px/100% 'Poppins', sans-serif; position: relative; display: flex;align-items: center;justify-content: flex-start}
+
+ .popup-filter,
+ .popup-filter * {
+   box-sizing: border-box;
+ }
+ .popup-filter {
+   width: 300px;
+   left: 400px;
+   top: 43px;
+   position: relative;
+ }
+ .rectangle-22 {
+   background: var(--text-colors-white, #ffffff);
+   border-radius: 8px;
+   border-style: solid;
+   border-color: var(--text-colors-gray, #ccced2);
+   border-width: 1px;
+   width: 300px;
+   height: 144px;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   box-shadow: 0px 16px 90px 0px rgba(19, 7, 52, 0.08);
+ }
+ .frame-66 {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   align-items: flex-start;
+   justify-content: flex-start;
+   position: absolute;
+   left: 24px;
+   top: 24px;
+ }
+ .group-46 {
+   flex-shrink: 0;
+   width: 252px;
+   height: 24px;
+   position: static;
+ }
+ .circle {
+   position: absolute;
+   left: 228px;
+   top: 0px;
+   overflow: visible;
+ }
+ .by-tanggal {
+   color: var(--text-colors-primary, #293038);
+   text-align: left;
+   font: var(--body-2-n-16-b-regular, 400 16px "Poppins", sans-serif);
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+ }
+ .group-47 {
+   flex-shrink: 0;
+   width: 252px;
+   height: 24px;
+   position: static;
+ }
+ .circle2 {
+   position: absolute;
+   left: 228px;
+   top: 36px;
+   overflow: visible;
+ }
+ .by-time {
+   color: var(--text-colors-primary, #293038);
+   text-align: left;
+   font: var(--body-2-n-16-b-regular, 400 16px "Poppins", sans-serif);
+   position: absolute;
+   left: 0px;
+   top: 36px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+ }
+ .group-48 {
+   flex-shrink: 0;
+   width: 252px;
+   height: 24px;
+   position: static;
+ }
+ .circle3 {
+   position: absolute;
+   left: 228px;
+   top: 72px;
+   overflow: visible;
+ }
+ .terbaru {
+   color: var(--text-colors-primary, #293038);
+   text-align: left;
+   font: var(--body-2-n-16-b-regular, 400 16px "Poppins", sans-serif);
+   position: absolute;
+   left: 0px;
+   top: 72px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+ }
+ 
+.more-vertical{
+    left: 130px;
+    position: relative;
+}
+
+
+/* Tugas Terselesaikan*/
